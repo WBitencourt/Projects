@@ -1,6 +1,4 @@
-Everything I do is for my family and the people around me ❤, I believe in doing something different for the world 🌍, 
-something big, something that I fit in and feel like part of that, a place that I can be challenged doing what I believe 🙏, 
-finding technological solutions of quality and excellence developing software ✔. 
+Everything I do is for my family and the people I love ❤, I believe in doing something different for the world 🌍, something big, something that I fit in and feel part of, a place full of challenges and innovative ideas 🤓. I am a software developer and aviation student ☕✈
 
 👋 Hello, my name is Wendell Bitencourt.
 
