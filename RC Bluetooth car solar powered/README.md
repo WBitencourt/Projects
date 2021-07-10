@@ -1,14 +1,12 @@
 # RC Bluetooth car solar powered 🕹
 
-https://user-images.githubusercontent.com/51727640/125174028-d7660c80-e198-11eb-8e11-3c54dacb4b6b.mp4
-
 Hello, welcome to my tutorial how to build a RC Bluetooth car solar powered with Arduino.
 
 *******
 Tabelas de conteúdo 
  1. [Objective](#Objective)
- 2. [How was it done?](#how)
- 3. [Ferramentas](#tools)
+ 2. [Ferramentas](#tools)
+ 3. [How was it done?](#how)
  4. [Aprendizado](#Learning)
 
 *******
@@ -71,10 +69,9 @@ Nesse caso o controlador é um celular, esse tem instalado o aplicativo “Dabbl
 
 ## Apresentation
 Se tudo ocorreu corretamente até aqui já é possível visualizar o carro respondendo aos comandos.
-Postei o funcionamento no meu Instagram, é possível visualizar no link:
+Postei o funcionamento no video abaixo, esta no formato com edições, pois é o mesmo video que esta no meu Instagram.
 
 https://user-images.githubusercontent.com/51727640/125174275-7fc8a080-e19a-11eb-8f6d-cbd4c2d970a1.mp4
-
 
 
 <div id='Learning'/>
