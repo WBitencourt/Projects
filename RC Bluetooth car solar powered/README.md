@@ -73,6 +73,9 @@ Nesse caso o controlador é um celular, esse tem instalado o aplicativo “Dabbl
 Se tudo ocorreu corretamente até aqui já é possível visualizar o carro respondendo aos comandos.
 Postei o funcionamento no meu Instagram, é possível visualizar no link:
 
+https://user-images.githubusercontent.com/51727640/125174275-7fc8a080-e19a-11eb-8f6d-cbd4c2d970a1.mp4
+
+
 
 <div id='Learning'/>
 
