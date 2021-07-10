@@ -16,32 +16,34 @@ Tabelas de conteúdo
 ## Objective
 O objetivo do projeto consiste no desenvolvimento de um carro a bateria recarregado por energia solar e controlado via bluetooth. 
 
+
 <div id='tools'/> 
 
 ## Ferramentas e materiais utilizados:
-1 - Modulo Bluetooth HC-05
-1 - Arduino UNO
-1 - Celular com Bluetooth e App Dabble instalado.
-? - Jumpers
-1 - Protoboard
-2 - Interruptores
-1 - Power Bank 1000mAh
-4 - Motores
-4 - Rodas. 
-1 - Ponte H L298N 12v.
-2 - Chapa de metal de 1mm - 20cm x 30cm (W x H)
-4 - Parafusos (Fixar uma chapa na outra)
-2 - Red LED
-4 - White LED
-4 - Yellow LED
-4 - Green LED
-1 - Ferro de solda, estanho e pasta de solda.
-1 - Superbonder
-1 - Alicate de corte
-2 - Suportes para pilha
-3 - Pilha de 4.2V 8800mAh
-1 - Stepup 3.5V a 30V
-2 - Módulo regulador de tensão
+1 - Modulo Bluetooth HC-05 <br/>
+1 - Arduino UNO <br/>
+1 - Celular com Bluetooth e App Dabble instalado. <br/>
+? - Jumpers <br/>
+1 - Protoboard <br/>
+2 - Interruptores <br/>
+1 - Power Bank 1000mAh <br/>
+4 - Motores <br/>
+4 - Rodas.  <br/>
+1 - Ponte H L298N 12v. <br/>
+2 - Chapa de metal de 1mm - 20cm x 30cm (W x H) <br/>
+4 - Parafusos (Fixar uma chapa na outra) <br/>
+2 - Red LED <br/>
+4 - White LED <br/>
+4 - Yellow LED <br/>
+4 - Green LED <br/>
+1 - Ferro de solda, estanho e pasta de solda. <br/>
+1 - Superbonder <br/>
+1 - Alicate de corte <br/>
+2 - Suportes para pilha <br/>
+3 - Pilha de 4.2V 8800mAh <br/>
+1 - Stepup 3.5V a 30V <br/>
+2 - Módulo regulador de tensão <br/>
+
 
 <div id='how'/> 
 
@@ -66,12 +68,14 @@ Nesse caso o controlador é um celular, esse tem instalado o aplicativo “Dabbl
 
 ![06](https://user-images.githubusercontent.com/51727640/125173610-910fae00-e196-11eb-863e-1ef9fa6a2570.jpeg)
 
+
 <div id='Apresentation'/> 
 
 ## Apresentation
 Se tudo ocorreu corretamente até aqui já é possível visualizar o carro respondendo aos comandos.
 Postei o funcionamento no meu Instagram, é possível visualizar no link:
 https://www.instagram.com/p/CQryeUUDg05M9OJZKdIiE3tmn6Pjj25s5OH73I0/
+
 
 <div id='Learning'/>
 
