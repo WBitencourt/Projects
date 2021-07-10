@@ -66,9 +66,8 @@ O código foi programado pensado em fazer o carro andar para frente, para trás,
  
 Nesse caso o controlador é um celular, esse tem instalado o aplicativo “Dabble”, ao abrir o app vá para opção “Gamepad” onde é possível visualizar o controle que será usado para dar comandos para o Arduino, além de estabelecer a conexão com o modulo bluetooth. 
 
-<p align="center">
-  <img width="600" height="200" src="https://user-images.githubusercontent.com/51727640/125173610-910fae00-e196-11eb-863e-1ef9fa6a2570.jpeg">
-</p>
+![05](https://user-images.githubusercontent.com/51727640/125174161-b4882800-e199-11eb-8a99-bc37c738f8e9.jpeg)
+![06](https://user-images.githubusercontent.com/51727640/125174164-b6ea8200-e199-11eb-8133-31871ea506e8.jpeg)
 
 ## Apresentation
 Se tudo ocorreu corretamente até aqui já é possível visualizar o carro respondendo aos comandos.
