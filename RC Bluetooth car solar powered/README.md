@@ -17,6 +17,7 @@ Tabelas de conteúdo
 O objetivo do projeto consiste no desenvolvimento de um carro a bateria recarregado por energia solar e controlado via bluetooth. 
 
 <div id='tools'/> 
+
 ## Ferramentas e materiais utilizados:
 1 - Modulo Bluetooth HC-05
 1 - Arduino UNO
@@ -43,6 +44,7 @@ O objetivo do projeto consiste no desenvolvimento de um carro a bateria recarreg
 2 - Módulo regulador de tensão
 
 <div id='how'/> 
+
 ## How was it done?
 O circuito do projeto ficou dessa maneira.
 #FOTO AQUI
@@ -61,15 +63,18 @@ O código foi programado pensado em fazer o carro andar para frente, para trás,
 Nesse caso o controlador é um celular, esse tem instalado o aplicativo “Dabble”, ao abrir o app vá para opção “Gamepad” onde é possível visualizar o controle que será usado para dar comandos para o Arduino, além de estabelecer a conexão com o modulo bluetooth. 
 
 ![05](https://user-images.githubusercontent.com/51727640/125173609-8ead5400-e196-11eb-9ae2-a543955ced2c.jpeg)
+
 ![06](https://user-images.githubusercontent.com/51727640/125173610-910fae00-e196-11eb-863e-1ef9fa6a2570.jpeg)
 
 <div id='Apresentation'/> 
+
 ## Apresentation
 Se tudo ocorreu corretamente até aqui já é possível visualizar o carro respondendo aos comandos.
 Postei o funcionamento no meu Instagram, é possível visualizar no link:
 https://www.instagram.com/p/CQryeUUDg05M9OJZKdIiE3tmn6Pjj25s5OH73I0/
 
 <div id='Learning'/>
+
 ## Process of learning (Difficulty e New skills)
 Como tenho conhecimento de eletrônica e programação, não houve muitas complicações em programar o Arduino e montar o circuito. Porém, houve situações que consumiram boa parte do tempo ao definir um protótipo ideal, pois queríamos o mínimo de baterias possíveis, mas que não afetasse a potência do motor e que não demorasse muito para realizar uma carga completa sem adicionar mais placas solares, que até então era apenas uma. Isso era importante para diminuir ao máximo seu peso, que consequente faria o carro andar mais rápido e por mais tempo.
 
