@@ -48,7 +48,7 @@ O objetivo do projeto consiste no desenvolvimento de um carro a bateria recarreg
 <div id='how'/> 
 
 ## How was it done?
-O circuito do projeto ficou dessa maneira.
+O circuito do projeto ficou dessa maneira. Schema feito com o software Fritizing, arquivo disponivel no mesmo diretório, nomeado como “Schema.fzz”. 
 
 ![Fritizing print](https://user-images.githubusercontent.com/51727640/128605992-7a751faf-83cd-4330-9d0e-670deb363110.PNG)
 
