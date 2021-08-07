@@ -5,9 +5,9 @@ Hello, welcome to my tutorial how to build a RC Bluetooth car solar powered with
 *******
 Tabelas de conteúdo 
  1. [Objective](#Objective)
- 2. [Ferramentas](#tools)
+ 2. [Tools](#tools)
  3. [How was it done?](#how)
- 4. [Aprendizado](#Learning)
+ 4. [Learning](#Learning)
 
 *******
 
@@ -49,7 +49,8 @@ O objetivo do projeto consiste no desenvolvimento de um carro a bateria recarreg
 
 ## How was it done?
 O circuito do projeto ficou dessa maneira.
-#FOTO AQUI
+
+![Fritizing print](https://user-images.githubusercontent.com/51727640/128605992-7a751faf-83cd-4330-9d0e-670deb363110.PNG)
 
 Algumas fotos do processo de montagem:
 
