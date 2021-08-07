@@ -27,7 +27,7 @@ O objetivo do projeto consiste no desenvolvimento de um carro a bateria recarreg
 ? - Jumpers <br/>
 1 - Protoboard <br/>
 2 - Interruptores <br/>
-1 - Power Bank 1000mAh <br/>
+1 - Battery 3.7v 1000mAh <br/>
 4 - Motores <br/>
 4 - Rodas.  <br/>
 1 - Ponte H L298N 12v. <br/>
@@ -38,10 +38,9 @@ O objetivo do projeto consiste no desenvolvimento de um carro a bateria recarreg
 4 - Yellow LED <br/>
 4 - Green LED <br/>
 1 - Ferro de solda, estanho e pasta de solda. <br/>
-1 - Superbonder <br/>
 1 - Alicate de corte <br/>
 2 - Suportes para pilha <br/>
-3 - Pilha de 4.2V 8800mAh <br/>
+1 - Pilha de 9V 8800mAh <br/>
 1 - Stepup 3.5V a 30V <br/>
 2 - Módulo regulador de tensão <br/>
 
