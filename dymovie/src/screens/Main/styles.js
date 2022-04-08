@@ -1,13 +1,10 @@
 import {StyleSheet} from 'react-native';
-import LightTheme from '../../styles/Theme/Light';
-import DarkTheme from '../../styles/Theme/Dark';
-
-const theme = DarkTheme;
+import Theme from '../../styles/Theme';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: theme.primary,
+    backgroundColor: Theme.color.primary,
   },
   logo: {
     container: {
@@ -21,8 +18,9 @@ const styles = StyleSheet.create({
       marginBottom: 20,
     },
     text: {
-      fontSize: 28,
-      color: theme.secondary,
+      fontSize: Theme.font.size.xxlarge,
+      fontFamily: Theme.font.fontFamily.primary,
+      color: Theme.color.secondary,
     },
   },
   footer: {
@@ -35,14 +33,14 @@ const styles = StyleSheet.create({
     button: {
       login: {
         margin: 10,
-        backgroundColor: '#D81F26',
+        backgroundColor: Theme.color.main,
       },
       signup: {
         margin: 10,
-        backgroundColor: theme.secondary,
+        backgroundColor: Theme.color.secondary,
       },
       signupTitle: {
-        color: theme.primary,
+        color: Theme.color.primary,
       },
     },
   },

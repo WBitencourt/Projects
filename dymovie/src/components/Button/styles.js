@@ -1,4 +1,5 @@
 import {StyleSheet} from 'react-native';
+import Theme from '../../styles/Theme';
 
 const styles = StyleSheet.create({
   touchableOpacity: {
@@ -10,7 +11,8 @@ const styles = StyleSheet.create({
   },
   buttonTitle: {
     textTransform: 'uppercase',
-    fontSize: 16,
+    fontSize: Theme.font.size.medium,
+    fontFamily: Theme.font.fontFamily.primary,
     textAlign: 'center',
     marginHorizontal: 14,
   },

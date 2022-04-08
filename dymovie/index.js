@@ -1,7 +1,3 @@
-/**
- * @format
- */
-
 import {AppRegistry} from 'react-native';
 import Main from './src/screens/Main';
 import Login from './src/screens/Login';
