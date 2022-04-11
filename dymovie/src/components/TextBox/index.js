@@ -10,9 +10,13 @@ export default function TextBox(props) {
   return (
     <View style={styles.container}>
       <View style={styles.icon}>
-        <Icon name={iconName} color={Theme.color.secondary} size={25} />
+        <Icon name={iconName} color={Theme.color.secondary} size={20} />
       </View>
-      <TextInput {...propsTextInput} style={styles.input} />
+      <TextInput
+        {...propsTextInput}
+        style={styles.input}
+        placeholderTextColor={Theme.color.secondary}
+      />
     </View>
   );
 }

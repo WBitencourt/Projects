@@ -3,7 +3,7 @@ import Theme from '../../styles/Theme';
 
 const styles = StyleSheet.create({
   touchableOpacity: {
-    flex: 1,
+    flex: 0,
   },
   button: {
     borderRadius: 8,

@@ -7,10 +7,12 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     height: 52,
     flexDirection: 'row',
+    marginVertical: 5,
   },
   icon: {
-    marginTop: 12,
+    marginTop: 16,
     marginLeft: 12,
+    opacity: 0.6,
   },
   input: {
     flex: 1,

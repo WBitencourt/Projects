@@ -10,13 +10,6 @@ const styles = StyleSheet.create({
   },
   iconColor: Theme.color.secondary,
   iconBackgroundColor: Theme.color.primary,
-  iconGroup: {
-    margin: 10,
-    flexDirection: 'row',
-  },
-  iconStyle: {
-    marginLeft: 10,
-  },
   title: {
     fontFamily: Theme.font.primary,
     fontSize: Theme.font.size.xxlarge,
@@ -34,23 +27,19 @@ const styles = StyleSheet.create({
   },
   link: {
     container: {
-      password: {
-        justifyContent: 'flex-end',
-        flexDirection: 'row',
-      },
-      signup: {
-        justifyContent: 'center',
-        flexDirection: 'row',
-      },
+      justifyContent: 'center',
+      flexDirection: 'row',
+      flexWrap: 'wrap',
+      marginVertical: 10,
     },
     text: {
-      password: {
+      termsAndConditions: {
         color: Theme.color.link,
         fontFamily: Theme.font.fontFamily.primary,
         fontSize: Theme.font.size.small,
         fontWeight: 'bold',
       },
-      signup: {
+      signin: {
         color: Theme.color.main,
         fontFamily: Theme.font.fontFamily.primary,
         fontSize: Theme.font.size.small,
