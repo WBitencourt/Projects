@@ -1,10 +1,9 @@
-import React, {createContext, useState, useEffect, useContext} from 'react';
+import React, {useState, useEffect, useContext, createContext} from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import Dark from '../styles/Theme/Dark';
-import Light from '../styles/Theme/Light';
+import Theme from '../styles/Theme';
+import {ThemeContext, ThemeProvider as Provider} from 'styled-components';
 
-//Define o formato/tipagem do contexto e nao o valor default. Ideal para typeScript
-const ThemeContext = createContext({});
+const {Light, Dark} = Theme;
 
 export const ThemeProvider = ({children}) => {
   const [theme, setTheme] = useState(Dark);
@@ -34,14 +33,14 @@ export const ThemeProvider = ({children}) => {
   }
 
   return (
-    <ThemeContext.Provider value={{theme, ToggleTheme}}>
+    <Provider theme={{myTheme: theme, loading, ToggleTheme}}>
       {children}
-    </ThemeContext.Provider>
+    </Provider>
   );
 };
 
-export default function useTheme() {
-  const context = useContext(ThemeContext);
+// export function useTheme() {
+//   const context = useContext(ThemeContext);
 
-  return context;
-}
+//   return context;
+// }

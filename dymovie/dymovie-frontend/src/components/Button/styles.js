@@ -1,18 +1,16 @@
-import {StyleSheet} from 'react-native';
-import Theme from '../../styles/Theme';
+import styled from 'styled-components/native';
 
-const styles = StyleSheet.create({
-  button: {
-    borderRadius: 8,
-    paddingVertical: 14,
-  },
-  buttonTitle: {
-    textTransform: 'uppercase',
-    fontSize: Theme.font.size.medium,
-    fontFamily: Theme.font.fontFamily.primary,
-    textAlign: 'center',
-    marginHorizontal: 14,
-  },
-});
+export const TouchableOpacity = styled.TouchableOpacity`
+  border-radius: 8px;
+  padding: 14px 0px 14px 0px;
+  margin: 10px;
+  background-color: ${props => props.backgroundColor};
+`;
 
-export default styles;
+export const Text = styled.Text`
+  font-size: ${props => props.theme.myTheme.font.size.medium}px;
+  font-family: ${props => props.theme.myTheme.font.fontFamily.primary};
+  text-align: center;
+  margin: 0px 14px 0px 14px;
+  color: ${props => props.titleColor || '#FFFFFF'};
+`;

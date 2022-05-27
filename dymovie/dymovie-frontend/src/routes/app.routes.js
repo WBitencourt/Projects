@@ -4,7 +4,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Home from '../screens/Home';
 import Settings from '../screens/Settings';
 
-export default function AuthNavigation() {
+export default function AppNavigation() {
   const Stack = createNativeStackNavigator();
 
   return (

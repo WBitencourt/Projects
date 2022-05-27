@@ -1,4 +1,6 @@
-const Light = {
+import Global from '../Global';
+
+export default {
   title: 'light',
   color: {
     primary: '#FFF',
@@ -7,6 +9,5 @@ const Light = {
     main: '#D81F26',
     link: '#004BA8',
   },
+  ...Global,
 };
-
-export default Light;

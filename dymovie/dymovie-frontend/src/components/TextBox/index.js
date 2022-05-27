@@ -1,22 +1,16 @@
 import React from 'react';
-import {View, TextInput} from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome5';
-import Theme from '../../styles/Theme';
-import styles from './styles';
+import {View} from 'react-native';
+import {Container, Icon, TextInput} from './styles';
 
 export default function TextBox(props) {
   const {iconName, ...propsTextInput} = props;
 
   return (
-    <View style={styles.container}>
-      <View style={styles.icon}>
-        <Icon name={iconName} color={Theme.color.secondary} size={20} />
+    <Container>
+      <View>
+        <Icon name={iconName} />
       </View>
-      <TextInput
-        {...propsTextInput}
-        style={styles.input}
-        placeholderTextColor={Theme.color.secondary}
-      />
-    </View>
+      <TextInput {...propsTextInput} placeholderTextColor="black" />
+    </Container>
   );
 }

@@ -1,16 +1,13 @@
-import {StyleSheet} from 'react-native';
-import Theme from '../styles/Theme';
+import styled from 'styled-components';
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: Theme.color.primary,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  icon: {
-    color: Theme.color.main,
-  },
-});
+export const Container = styled.View`
+  flex: 1;
+  background-color: ${props => props.theme.myTheme.color.primary};
+  justify-content: center;
+  align-items: center;
+`;
 
-export default styles;
+export const ActivityIndicator = styled.ActivityIndicator.attrs(props => ({
+  size: 'large',
+  color: props.theme.myTheme.color.main,
+}))``;
