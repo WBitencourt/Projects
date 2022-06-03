@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import TextBox from '../../components/TextBox';
 import FlatButton from '../../components/Button';
-import IconFontAwesome from 'react-native-vector-icons/FontAwesome5';
 
 export const Container = styled.View`
   flex: 1;

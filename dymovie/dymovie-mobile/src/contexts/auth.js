@@ -29,7 +29,7 @@ export const AuthProvider = ({children}) => {
     loadStoragedData();
   }, []);
 
-  async function signIn() {
+  async function signIn({email, password}) {
     const response = await auth.signIn();
 
     setUser(response.user);
@@ -40,13 +40,15 @@ export const AuthProvider = ({children}) => {
     await AsyncStorage.setItem('@RNAuth:token', response.token);
   }
 
+  function signup({fullName, email, password, confirmPassword}) {}
+
   function signOut() {
     AsyncStorage.clear().then(() => setUser(null));
   }
 
   return (
     <AuthContext.Provider
-      value={{signed: !!user, user, loading, signIn, signOut}}>
+      value={{signed: !!user, user, loading, signIn, signup, signOut}}>
       {children}
     </AuthContext.Provider>
   );

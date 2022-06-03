@@ -15,12 +15,17 @@ import {
 import useAuth from '../../contexts/auth';
 
 export default function Signup({navigation}) {
+  const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const {signed, user, signIn} = useAuth();
+  const [confirmPassword, setConfirmPassword] = useState('');
+
+  const {signup} = useAuth();
 
   function handleSignIn() {
-    signIn();
+    const signupProps = {fullName, email, password, confirmPassword};
+
+    signup(signupProps);
   }
 
   return (
@@ -30,7 +35,7 @@ export default function Signup({navigation}) {
           iconName="user-circle"
           placeholder="Full name"
           onChangeText={value => {
-            setEmail(value);
+            setFullName(value);
           }}
         />
 
@@ -38,7 +43,7 @@ export default function Signup({navigation}) {
           iconName="envelope"
           placeholder="E-mail"
           onChangeText={value => {
-            setPassword(value);
+            setEmail(value);
           }}
         />
 
@@ -54,7 +59,7 @@ export default function Signup({navigation}) {
           iconName="lock"
           placeholder="Confirm your password"
           onChangeText={value => {
-            setPassword(value);
+            setConfirmPassword(value);
           }}
         />
 
