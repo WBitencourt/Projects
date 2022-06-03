@@ -2,14 +2,22 @@ import React, {useState} from 'react';
 import {Linking} from 'react-native';
 import {
   Container,
+<<<<<<< HEAD
   ContainerRowDirection,
+=======
+>>>>>>> ca1ce95b9fc62748dda53551a66da9733e2f57c5
   Formulary,
   InputText,
   ButtonLogin,
   LinkPassword,
+<<<<<<< HEAD
   LinkSignup,
   TextForgotPassword,
   AuthLogin,
+=======
+  TextPassword,
+  AnotherLogin,
+>>>>>>> ca1ce95b9fc62748dda53551a66da9733e2f57c5
   Text,
   GroupIcons,
   Icon,
@@ -47,6 +55,7 @@ export default function Login({navigation}) {
         <ButtonLogin onPress={() => handleSignIn()} />
 
         <LinkPassword>
+<<<<<<< HEAD
           <TextForgotPassword
             onPress={() => Linking.openURL('https://google.com')}>
             Forgot password?
@@ -65,16 +74,38 @@ export default function Login({navigation}) {
             onPress={() => Linking.openURL('https://m.facebook.com')}
           />
           <Icon
+=======
+          <TextPassword onPress={() => Linking.openURL('https://google.com')}>
+            Forgot password?
+          </TextPassword>
+        </LinkPassword>
+      </Formulary>
+      <AnotherLogin>
+        <Text>Or Sign in with</Text>
+        <GroupIcons>
+          <Icon.Button
+            name="google"
+            onPress={() => Linking.openURL('https://google.com')}
+          />
+          <Icon.Button
+            name="facebook"
+            onPress={() => Linking.openURL('https://m.facebook.com')}
+          />
+          <Icon.Button
+>>>>>>> ca1ce95b9fc62748dda53551a66da9733e2f57c5
             name="instagram"
             onPress={() => Linking.openURL('https://instagram.com')}
           />
         </GroupIcons>
+<<<<<<< HEAD
         <ContainerRowDirection>
           <Text>Don't have an account?</Text>
           <LinkSignup onPress={() => navigation.navigate('Signup')}>
             Signup
           </LinkSignup>
         </ContainerRowDirection>
+=======
+>>>>>>> ca1ce95b9fc62748dda53551a66da9733e2f57c5
         {/* <View style={styles.link.container.signup}>
           <Text style={styles.text}>Don't have an account? </Text>
           <Text
@@ -83,7 +114,11 @@ export default function Login({navigation}) {
             Sign up
           </Text>
         </View> */}
+<<<<<<< HEAD
       </AuthLogin>
+=======
+      </AnotherLogin>
+>>>>>>> ca1ce95b9fc62748dda53551a66da9733e2f57c5
     </Container>
   );
 }

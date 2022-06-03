@@ -6,7 +6,11 @@ export const Container = styled.View`
   border-radius: 8px;
   height: 52px;
   flex-direction: row;
+<<<<<<< HEAD
   margin: 5px 0px 5px 0px;
+=======
+  margin: 5px 10px 5px 10px;
+>>>>>>> ca1ce95b9fc62748dda53551a66da9733e2f57c5
 `;
 
 export const Icon = styled(IconFontAwesome).attrs(props => ({
