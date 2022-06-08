@@ -66,8 +66,8 @@ export default function Login({navigation}) {
             onPress={() => Linking.openURL('https://m.facebook.com')}
           />
           <Icon
-            name="instagram"
-            onPress={() => Linking.openURL('https://instagram.com')}
+            name="github"
+            onPress={() => Linking.openURL('https://github.com/wbitencourt')}
           />
         </GroupIcons>
         <ContainerRowDirection>
