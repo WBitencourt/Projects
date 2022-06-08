@@ -1,5 +1,7 @@
 <h1 align="center">
   <img alt="Rocketseat" height="80" title="DYMOVIE" src="dymovie-mobile/src/assets/logo264x262-noback.png" />
+  <br/>
+  DYMOVIE
 </h1>
 
 ## 💻 Projeto
