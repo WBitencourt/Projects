@@ -8,7 +8,7 @@
 Aplicativo desenvolvido com o objetivo de permitir que pessoas avaliem filmes e comentem sobre sua experiencia,
 levando outros usuários por recomendação verem também, independente a plataforma de streamer que o filme esteja.
 
-## 💻 Objetivo pessoal
+## 🤓 Objetivo pessoal
 Meu objetivo inicial com esse projeto não é criar um produto para ser entregue ao mercado, 
 e sim desenvolver habilidades referentes ao React Native, do início ao fim de uma aplicação
 abrangendo o máximo de recursos oferecidos por esse framework e que seja totalmente de minha autoria.
