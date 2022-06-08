@@ -13,6 +13,13 @@ Meu objetivo inicial com esse projeto não é criar um produto para ser entregue
 e sim desenvolver habilidades referentes ao React Native, do início ao fim de uma aplicação
 abrangendo o máximo de recursos oferecidos por esse framework e que seja totalmente de minha autoria.
 
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/OxBAc8sDO8JssN8c72oSmu/DYMOVIE?node-id=0%3A1). 
+É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
+<br />
+Desenvolvido por Wendell Bitencourt(@wbitencourt).
+
 ## ✨ Tecnologias
 
 # Front-end
@@ -68,14 +75,6 @@ abrangendo o máximo de recursos oferecidos por esse framework e que seja totalm
 -   [ ] Possui o ORM Prisma como intermediários ao fazer operações no banco de dados.
 -   [ ] Desenvolvido com Postgresql e MongoDB
 -   [ ] Configurado para transpilar o código typescript para javascript, comando "npm build".
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/OxBAc8sDO8JssN8c72oSmu/DYMOVIE?node-id=0%3A1). 
-É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
-<br />
-Desenvolvido por Wendell Bitencourt(@wbitencourt).
-
 
 ## Executando o projeto
 
