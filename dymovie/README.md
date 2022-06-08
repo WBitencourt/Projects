@@ -4,6 +4,10 @@
   DYMOVIE
 </h1>
 
+```diff
+@@ Projeto em desenvolvimento @@
+```
+
 ## 💻 Projeto
 Aplicativo desenvolvido com o objetivo de permitir que pessoas avaliem filmes e comentem sobre sua experiencia,
 levando outros usuários por recomendação verem também, independente a plataforma de streamer que o filme esteja.
@@ -23,30 +27,30 @@ Desenvolvido por Wendell Bitencourt(@wbitencourt).
 ## ✨ Tecnologias
 
 # Front-end
--   [ ] Figma
--   [ ] React Native
--   [ ] Javascript
--   [ ] Context API
--   [ ] Babel
--   [ ] Eslint
--   [ ] Jest
--   [ ] Styled Components
--   [ ] Axios
--   [ ] Postman
--   [ ] React Navigation
--   [ ] React vector icons (Font Awesome)
+- Figma
+- React Native
+- Javascript
+- Context API
+- Babel
+- Eslint
+- Jest
+- Styled Components
+- Axios
+- Postman
+- React Navigation
+- React vector icons (Font Awesome)
 
 # Back-end
--   [ ] Express
--   [ ] Javascript
--   [ ] Typescript
--   [ ] Prisma
--   [ ] Jest
--   [ ] Postgresql
--   [ ] MongoDB
--   [ ] Migrations
--   [ ] SWC
--   [ ] Cors
+- Express
+- Javascript
+- Typescript
+- Prisma
+- Jest
+- Postgresql
+- MongoDB
+- Migrations
+- SWC
+- Cors
 
 ## :hammer_and_wrench: Features 
 
