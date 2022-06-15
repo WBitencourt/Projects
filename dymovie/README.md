@@ -14,7 +14,7 @@ levando outros usuários por recomendação verem também, independente a plataf
 
 ## 🤓 Objetivo pessoal
 Meu objetivo inicial com esse projeto não é criar um produto para ser entregue ao mercado, 
-e sim desenvolver habilidades referentes ao React Native, do início ao fim de uma aplicação
+e sim desenvolver habilidades referentes ao React, do início ao fim de uma aplicação
 abrangendo o máximo de recursos oferecidos por esse framework e que seja totalmente de minha autoria.
 
 ## 🔖 Layout
@@ -27,6 +27,9 @@ Desenvolvido por Wendell Bitencourt(@wbitencourt).
 ## ✨ Tecnologias
 
 # Front-end
+- *** Em planejamento ***
+
+# Mobile
 - Figma
 - React Native
 - Javascript
