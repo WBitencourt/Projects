@@ -15,55 +15,55 @@ Tabelas de conteúdo
 <div id='Objective'/> 
 
 ## Objective
-O objetivo do projeto consiste no desenvolvimento de um carro a bateria recarregado por energia solar e controlado via bluetooth. 
+The project aims to develop a battery-powered car recharged by solar energy and controlled via Bluetooth.
 
 
 <div id='tools'/> 
 
 ## Ferramentas e materiais utilizados:
-1 - Modulo Bluetooth HC-05 <br/>
+1 - Bluetooth Module HC-05 <br/>
 1 - Arduino UNO <br/>
-1 - Celular com Bluetooth e App Dabble instalado. <br/>
-? - Jumpers <br/>
-1 - Protoboard <br/>
-2 - Interruptores <br/>
-1 - Battery 3.7v 1000mAh <br/>
-4 - Motores <br/>
-4 - Rodas.  <br/>
-1 - Ponte H L298N 12v. <br/>
-2 - Chapa de metal de 1mm - 20cm x 30cm (W x H) <br/>
-4 - Parafusos (Fixar uma chapa na outra) <br/>
-2 - Red LED <br/>
-4 - White LED <br/>
-4 - Yellow LED <br/>
-4 - Green LED <br/>
-1 - Ferro de solda, estanho e pasta de solda. <br/>
-1 - Alicate de corte <br/>
-2 - Suportes para pilha <br/>
-1 - Pilha de 9V 8800mAh <br/>
-1 - Stepup 3.5V a 30V <br/>
-2 - Módulo regulador de tensão <br/>
+1 - Smartphone with Bluetooth and Dabble App installed. <br/>
+? - Jumper wires <br/>
+1 - Breadboard <br/>
+2 - Switches <br/>
+1 - 3.7V 1000mAh Battery <br/>
+4 - Motors <br/>
+4 - Wheels <br/>
+1 - H Bridge L298N 12V <br/>
+2 - 1mm Metal Plate - 20cm x 30cm (W x H) <br/>
+4 - Screws (to attach one plate to another) <br/>
+2 - Red LEDs <br/>
+4 - White LEDs <br/>
+4 - Yellow LEDs <br/>
+4 - Green LEDs <br/>
+1 - Soldering iron, solder, and solder paste <br/>
+1 - Wire cutter <br/>
+2 - Battery holders <br/>
+1 - 9V 8800mAh Battery <br/>
+1 - Step-up 3.5V to 30V <br/>
+2 - Voltage regulator modules <br/>
 
 
 <div id='how'/> 
 
 ## How was it done?
-O circuito do projeto ficou dessa maneira. Schema feito com o software Fritizing, arquivo disponivel no mesmo diretório, nomeado como “Schema.fzz”. 
+The circuit for the project looked like this. The schema was created using Fritzing software, and the file is available in the same directory, named "Schema.fzz".
 
 ![Fritizing print](https://user-images.githubusercontent.com/51727640/128605992-7a751faf-83cd-4330-9d0e-670deb363110.PNG)
 
-Algumas fotos do processo de montagem:
+Some photos of the assembly process:
 
 ![01](https://user-images.githubusercontent.com/51727640/125173505-19da1a00-e196-11eb-8a46-53cf4396a69b.jpeg)
 ![02](https://user-images.githubusercontent.com/51727640/125173506-1b0b4700-e196-11eb-80fc-7d35a8bc251b.jpeg)
 ![03](https://user-images.githubusercontent.com/51727640/125173508-1b0b4700-e196-11eb-979d-93220a5f2177.jpeg)
 ![04](https://user-images.githubusercontent.com/51727640/125173509-1ba3dd80-e196-11eb-9b26-5511624a00e9.jpeg)
 
-Ao finalizar todas as instalações é necessário compilar o código no Arduino e conectar o controle remoto. O código está disponível no mesmo diretório, nomeado como “Arduino_Code.ino”. 
+After completing all installations, it is necessary to compile the code on the Arduino and connect the remote control. The code is available in the same directory, named "Arduino_Code.ino".
 
-O código foi programado pensado em fazer o carro andar para frente, para trás, virar para ambos os lados, ligar o pisca alerta, dar seta, acender e apagar todas as luzes, além de ligar o neon e luzes de ré ao dar ré. Observação: Necessário instalar a biblioteca <Dabble.h> a versão utilizada foi a 1.5.2.
- 
-Nesse caso o controlador é um celular, esse tem instalado o aplicativo “Dabble”, ao abrir o app vá para opção “Gamepad” onde é possível visualizar o controle que será usado para dar comandos para o Arduino, além de estabelecer a conexão com o modulo bluetooth. 
+The code was programmed to make the car move forward, backward, turn in both directions, turn on the hazard lights, signal lights, turn all lights on and off, as well as turn on the neon and reverse lights when reversing. Note: It is necessary to install the <Dabble.h> library; the version used was 1.5.2.
+
+In this case, the controller is a smartphone with the "Dabble" app installed. When opening the app, go to the "Gamepad" option where you can see the control that will be used to command the Arduino and establish a connection with the Bluetooth module.
 
 ![05](https://user-images.githubusercontent.com/51727640/125174161-b4882800-e199-11eb-8a99-bc37c738f8e9.jpeg)
 ![06](https://user-images.githubusercontent.com/51727640/125174164-b6ea8200-e199-11eb-8133-31871ea506e8.jpeg)
@@ -71,8 +71,7 @@ Nesse caso o controlador é um celular, esse tem instalado o aplicativo “Dabbl
 <div id='Apresentation'/>
 
 ## Apresentation
-Se tudo ocorreu corretamente até aqui já é possível visualizar o carro respondendo aos comandos.
-Postei o funcionamento no video abaixo, esta no formato com edições, pois é o mesmo video que esta no meu Instagram.
+If everything has gone correctly so far, you should be able to see the car responding to commands. I posted the operation in the video below, which is edited, as it is the same video on my Instagram.
 
 https://user-images.githubusercontent.com/51727640/125174344-3036a480-e19b-11eb-86b6-2667dd08b5f5.mp4
 
@@ -80,10 +79,9 @@ https://user-images.githubusercontent.com/51727640/125174344-3036a480-e19b-11eb-
 <div id='Learning'/>
 
 ## Process of learning (Difficulty e New skills)
-Como tenho conhecimento de eletrônica e programação, não houve muitas complicações em programar o Arduino e montar o circuito. Porém, houve situações que consumiram boa parte do tempo ao definir um protótipo ideal, pois queríamos o mínimo de baterias possíveis, mas que não afetasse a potência do motor e que não demorasse muito para realizar uma carga completa sem adicionar mais placas solares, que até então era apenas uma. Isso era importante para diminuir ao máximo seu peso, que consequente faria o carro andar mais rápido e por mais tempo.
+As I have knowledge of electronics and programming, there weren't many complications in programming the Arduino and assembling the circuit. However, there were situations that consumed a significant amount of time in defining an ideal prototype, as we wanted to use the minimum number of batteries possible without affecting the motor power and without taking too long to complete a full charge without adding more solar panels, of which there was only one at the time. This was important to minimize its weight, which would, in turn, make the car move faster and for a longer time.
 
-Para contornar essa situação, foram necessárias duas pilhas para a ponte H e uma outra para o Arduino de mesma potência, que inicialmente queríamos que funcionasse com apenas um powerbank que não foi possível devido fornecer uma corrente baixa o que impactava na potência dos motores. 
-Além do mais, adicionamos mais uma placa solar ao circuito para aumentar o tempo de recarga e um stepup para subir a tensão de 4.2V da pilha para 5v no Arduino, sem isso não era possível liga-lo.
+To overcome this situation, two batteries were needed for the H bridge and another one for the Arduino, both of the same power. Initially, we wanted it to work with just one power bank, but that was not possible due to it providing a low current, which impacted the motor power. Additionally, we added another solar panel to the circuit to increase the recharge time and a step-up to raise the voltage from the 4.2V of the battery to 5V for the Arduino; without this, it was not possible to power it on.
 
-Alguns conceitos de eletrônica que aprendi foram relembrados no projeto, para mim a montagem do carro era nova, já havia feito outros projetos com Arduino mas nada relacionado a carro e recarga por placas solares. 
+Some electronics concepts that I had learned were revisited in the project. For me, the assembly of the car was new, as I had done other projects with Arduino but nothing related to cars and solar-powered charging.
 
