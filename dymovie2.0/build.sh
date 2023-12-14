@@ -4,7 +4,7 @@ new_version=$(npm version patch)
 
 docker image build -t dymovie-image:$new_version .
 
-docker container run -d --name dymovie-container-$new_version dymovie-image:$new_version
+docker container run -d -p 3001:3001 -p 3002:3002 --name dymovie-container-$new_version dymovie-image:$new_version
 
 # clear
 
