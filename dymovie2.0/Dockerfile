@@ -16,4 +16,4 @@ RUN chmod +x start.sh
 
 # Define o comando padrão a ser executado quando o contêiner é iniciado
 # CMD ["npm", "run", "dev"]
-CMD ["bash", "start.sh"]
+CMD ["sh", "start.sh"]
