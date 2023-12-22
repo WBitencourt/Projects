@@ -6,7 +6,7 @@ WORKDIR /app
 
 COPY . .
 RUN npm install
-RUN npm run build
+# RUN npm run build
 
 # ENV NEXT_PUBLIC_EVEREST_AUTH_SERVER=""
 # ENV NEXT_PUBLIC_EVEREST_RESOURCES_SERVER=""
