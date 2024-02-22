@@ -5,34 +5,31 @@
 </h1>
 
 ```diff
-@@ Projeto em desenvolvimento @@
+@@ Project under development @@
 ```
 
-## 💻 Projeto
-Aplicativo desenvolvido com o objetivo de permitir que pessoas avaliem filmes e comentem sobre sua experiencia,
-levando outros usuários por recomendação verem também, independente a plataforma de streamer que o filme esteja.
+## 💻 Project
+An app developed with the goal of allowing people to rate movies and share their experiences,
+leading other users to watch them too, regardless of the streaming platform the movie is on.
 
-## 🤓 Objetivo pessoal
-Meu objetivo inicial com esse projeto não é criar um produto para ser entregue ao mercado, 
-e sim desenvolver habilidades referentes ao React, do início ao fim de uma aplicação
-abrangendo o máximo de recursos oferecidos por esse framework e que seja totalmente de minha autoria.
+## 🤓 Personal Goal
+My initial goal with this project is not to create a product to be released to the market,
+but rather to develop skills related to React, from the beginning to the end of an application
+covering as many resources offered by this framework as possible and to be entirely of my own authorship.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/OxBAc8sDO8JssN8c72oSmu/DYMOVIE?node-id=0%3A1). 
-É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
+You can view the project layout through [this link](https://www.figma.com/file/OxBAc8sDO8JssN8c72oSmu/DYMOVIE?node-id=0%3A1). 
+An account on [Figma](http://figma.com/) is required to access it.
 <br />
-Desenvolvido por Wendell Bitencourt(@wbitencourt).
+Developed by Wendell Bitencourt(@wbitencourt).
 
-## ✨ Tecnologias
-
-# Front-end
-- *** Em planejamento ***
+## ✨ Technologies
 
 # Mobile
 - Figma
 - React Native
-- Javascript
+- JavaScript
 - Context API
 - Babel
 - Eslint
@@ -41,15 +38,15 @@ Desenvolvido por Wendell Bitencourt(@wbitencourt).
 - Axios
 - Postman
 - React Navigation
-- React vector icons (Font Awesome)
+- React Vector Icons (Font Awesome)
 
 # Back-end
 - Express
-- Javascript
-- Typescript
+- JavaScript
+- TypeScript
 - Prisma
 - Jest
-- Postgresql
+- PostgreSQL
 - MongoDB
 - Migrations
 - SWC
@@ -57,80 +54,82 @@ Desenvolvido por Wendell Bitencourt(@wbitencourt).
 
 ## :hammer_and_wrench: Features 
 
-# Front-end
--   [ ] O usuário deve realizar login ou se cadastrar na plataforma.
--   [ ] O sistema disponibiliza 4 atalhos de telas no menu inferior. 🏠 | 🔍 | ⭐ | 🙍‍♂️
--   [ ] 🏠 Home: Apresenta três categorias "Populares na comunidade", "Mais avaliados", "Menos avaliados".
--   [ ] 🏠 Home >> Populares na comunidade: Apresenta os filmes mais comentados na comunidade.
--   [ ] 🏠 Home >> Mais avaliados: Apresenta os filmes mais avaliados da comunidade, ou seja, filmes com avaliação igual ou superior a 4.
--   [ ] 🏠 Home >> Menos avaliados: Apresenta os filmes menos avaliados da comunidade, ou seja, filmes com avaliação igual ou menor a 3.
--   [ ] 🔍 Buscar: Direciona o usuário a tela de busca, onde pode buscar um filme, tocá-lo e ser direcionado para tela de informações.
--   [ ] ⭐ Favoritos: Permite buscar e visualizar filmes marcados como favorito, se os card forem tocadas, a tela de informações será aberta.
--   [ ] Informações: Permite ver a avaliação do filme dentro da comunidade, além de marcar como favorito, assistido, adicionar comentário, visualizar a sinopse e avaliar de 1 a 5.
--   [ ] 🙍‍♂️ Perfil: Permite alterar foto que ée publica quando um comentário é feito, além de visualizar suas notificações, dados da conta, ver dados do aplicativo e sair do sistema.
--   [ ] Notificações: Permite usuário ver dados das curtidas que recebeu.
--   [ ] Conta: Permite alterar dados da conta.
--   [ ] Sobre: Permite checar versão da aplicação.
--   [ ] Sair: Realiza o logoff do aplicativo limpando os dados de sessão, necessário realizar login novamente.
+# Mobile
+-   [ ] User must log in or register on the platform.
+-   [ ] The system provides 4 shortcuts of screens in the bottom menu. 🏠 | 🔍 | ⭐ | 🙍‍♂️
+-   [ ] 🏠 Home: Displays three categories "Popular in the community", "Top rated", "Least rated".
+-   [ ] 🏠 Home >> Popular in the community: Shows the most commented movies in the community.
+-   [ ] 🏠 Home >> Top rated: Shows the highest rated movies in the community, i.e., movies with a rating of 4 or higher.
+-   [ ] 🏠 Home >> Least rated: Shows the least rated movies in the community, i.e., movies with a rating of 3 or lower.
+-   [ ] 🔍 Search: Directs the user to the search screen, where they can search for a movie, touch it, and be directed to the information screen.
+-   [ ] ⭐ Favorites: Allows searching and viewing movies marked as favorite, if the cards are touched, the information screen will open.
+-   [ ] Information: Allows viewing the movie's rating within the community, as well as marking as favorite, watched, adding a comment, viewing the synopsis, and rating from 1 to 5.
+-   [ ] 🙍‍♂️ Profile: Allows changing the photo that is public when a comment is made, as well as viewing your notifications, account data, seeing application data, and exiting the system.
+-   [ ] Notifications: Allows the user to see data from the likes received.
+-   [ ] Account: Allows changing account data.
+-   [ ] About: Allows checking the application version.
+-   [ ] Exit: Performs the app logoff by clearing session data, requiring login again.
 
 # Back-end
--   [ ] Back-end construído com base em uma aplicação REST.
--   [ ] Permite registrar dados de cadastro e fluxo de avaliação dos filmes via método HTTP POST.
--   [ ] Permite consultar as avaliações dos filmes e dados do usuário via método HTTP GET.
--   [ ] Possui testes unitários (npm run test).
--   [ ] Possui conceitos de SOLID.
--   [ ] Possui o ORM Prisma como intermediários ao fazer operações no banco de dados.
--   [ ] Desenvolvido com Postgresql e MongoDB
--   [ ] Configurado para transpilar o código typescript para javascript, comando "npm build".
+-   [ ] Back-end built on a REST application base.
+-   [ ] Allows registering signup data and movie rating flow via HTTP POST method.
+-   [ ] Allows consulting the movie ratings and user data via HTTP GET method.
+-   [ ] Has unit tests (npm run test).
+-   [ ] Adheres to SOLID principles.
+-   [ ] Uses the ORM Prisma as intermediaries when performing database operations.
+-   [ ] Developed with PostgreSQL and MongoDB
+-   [ ] Configured to transpile TypeScript code to JavaScript, command "npm build".
 
-## Executando o projeto
+## Running the project
 
-# Front-end
-Para que os passos abaixo funcionem corretamente é necessário que todo ambiente de desenvolvimento esteja corretamente configurado.
-Portanto confira ou siga os passos clicando [nesse link](https://reactnative.dev/docs/environment-setup). 
+# Mobile
+For the steps below to work correctly, it is necessary that the entire development environment is correctly configured.
+Therefore, check or follow the steps by clicking [this link](https://reactnative.dev/docs/environment-setup).
 
-Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
-Em seguida, inicie o metro.
+Use **yarn** or **npm install** to install the project dependencies.
+Then, start the metro.
 
-Passo 1:
+Step 1:
 ```cl
 npm install
 ```
-ou
+or
 
 ```cl
 yarn install
 ```
 
-Passo 2:
+Step 2:
 ```cl
 npx react-native start
 ```
-ou
+or
 
 ```cl
 yarn react-native start
 ```
 
-Após o Metro iniciar, abra um novo terminal e execute o comando para abrir o emulador.
+After the Metro starts, open a new terminal and execute the command to open the emulator.
 
-Passo 3:
+Step 3:
  ```cl
-emulator -no-snapshot -avd <Nome do seu emulador aqui>
+emulator -no-snapshot -avd <Your emulator name here>
 ```
 
-Passo 4:
+Step 4:
  ```cl
 npx react-native run-android
 ```
-ou
+or
 
  ```cl
 yarn react-native run-android
 ```
 
-## 📄 Licença
+## 📄 License
 
-Esse projeto foi desenvolvido por Wendell Bitencourt.
+This project was developed by Wendell Bitencourt.
 
 <br />
+
+---
